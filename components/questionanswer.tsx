@@ -6,7 +6,7 @@ type QuestionAnswerProps = {
 }
 
 const QuestionAnswer: React.FC<QuestionAnswerProps> = ({question, answer}) => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const handleClick = () => {
     if(isOpen) setIsOpen(false);
