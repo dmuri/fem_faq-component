@@ -1,4 +1,3 @@
-import {Inter} from 'next/font/google'
 import MobileBackground from "@/components/mobile-background";
 import DesktopBackground from "@/components/desktop-background";
 import QuestionAnswer from "@/components/questionanswer";
