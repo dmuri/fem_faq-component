@@ -1,8 +1,6 @@
-type DesktopBackgroundProps = {
-  className?: string;
-}
 
-const DesktopBackground: React.FC<DesktopBackgroundProps> = ({className}) => {
+
+const DesktopBackground = () => {
   return (
 
       <div className={`relative h-[550px] w-[550px] right-28 top-20 `}>

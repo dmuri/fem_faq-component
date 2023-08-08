@@ -1,8 +1,4 @@
-type MobileBackgroundProps = {
-  className?: string;
-}
-
-const MobileBackground: React.FC<MobileBackgroundProps> = ({className}) => {
+const MobileBackground = () => {
   return (
 
         <div className={`relative h-72 w-72 `}>

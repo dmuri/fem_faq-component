@@ -1,11 +1,8 @@
-import Image from 'next/image'
 import {Inter} from 'next/font/google'
 import MobileBackground from "@/components/mobile-background";
 import DesktopBackground from "@/components/desktop-background";
 import QuestionAnswer from "@/components/questionanswer";
-import FAQ from "@/components/chatgptqa";
 
-const inter = Inter({subsets: ['latin']})
 
 export default function Home() {
   return (
