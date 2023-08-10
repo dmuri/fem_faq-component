@@ -18,7 +18,7 @@ const QuestionAnswer: React.FC<QuestionAnswerProps> = ({question, answer}) => {
         <div className="z-10 flex flex-col gap-1 mb-3 cursor-pointer" onClick={handleClick}>
           <div className="flex justify-between items-center hover:cursor-pointer"  >
             <h2 className={`${isOpen ? 'font-bold' : ''} text-md text-neutral-very-dark-grayish-blue`}>{question}</h2>
-            <button className="h-10 w-10 flex basis-auto justify-center items-center " >
+            <button aria-label="question-expanded" className="h-10 w-10 flex basis-auto justify-center items-center " >
               <img className={`${isOpen ? 'transform rotate-180' : ''} h-3 w-4`} src="/images/icon-arrow-down.svg" alt="" />
             </button>
           </div>
